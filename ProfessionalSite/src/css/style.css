@@ -1,0 +1,54 @@
+.navbar
+{
+  margin-bottom: 2rem;
+ 
+  box-shadow: .0rem 0.3rem #e9ecef;
+
+}
+.card
+{
+  box-shadow: .3rem .6rem rgba(187, 187, 187, 0.164);
+  border-radius: .25rem;
+}
+
+.card-header-Postedby
+{
+  float: left;
+  clear: left;
+  display: inline;
+  text-align: left;
+}
+.card-header-Subject
+{
+  float: right;
+  text-align: right;
+
+}
+.card-footer-time-due
+{
+  float: left;
+  clear: left;
+  display: inline;
+  text-align: left;
+}
+.card-footer-time-posted
+{
+  float: right;
+  text-align: right;
+}
+.feedpost
+{
+  margin: 3rem;
+}
+.customheading
+{
+  text-align: center;
+}
+.jumbotron
+{
+  padding:2rem 2rem !important;
+}
+.footer-copyright
+{
+  padding: 2rem;
+}

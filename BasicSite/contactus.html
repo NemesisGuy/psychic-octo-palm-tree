@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Nemesis Net </title>
+	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/style_login_modal.css">
+	<script type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Project for class">
+	<meta name="keywords" content="">
+	<meta name="author" content="Peter Buckingham">
+	</head>
+
+	<body>
+
+		<header>
+			<div class="container">
+				<div id="branding">
+							<h1 > <a href="./index.html"> <span class="highlight">N</span>emesis <span class="highlight">N</span>et </a></h1>
+				</div>
+				<nav>
+					<ul>
+
+						<li><a href="./about.html">about</a> 			</li>
+						<li><a href="./contactus.html">contact us</a> 	</li>
+						<li><a href="./login.html">log in</a> 			</li>
+					</ul>
+				</nav>
+		</div>
+		</header>
+
+		<section class="mainsection">
+
+
+			<div class="container">
+
+				<h2>CONTACT US </h2>
+				<p>Please feel free to contact us with any queriea, requests or for a free quote  </p>
+				<button onclick="document.getElementById('ContactUsForm').style.display='block'" style="width:auto;">Contact Us</button>
+
+					<div id="ContactUsForm" class="modal">
+	  
+						<form class="modal-content animate" id="contactusformid" onsubmit="" method="POST">
+						  <div class="formheader">
+							<h2>CONTACT US </h2>
+						  
+							 
+							<span onclick="document.getElementById('ContactUsForm').style.display='none'" 
+							class="close" title="Close Modal">&times;</span>
+							
+						  </div>
+					  
+						  <div class="formcontainer">
+							<label for="subject"><b>Subject</b></label>
+							<input type="text" placeholder="Enter Subject" name="subject"  id="subject" required>
+					  
+							<label for="message"><b>Message</b></label>
+							<textarea placeholder="Enter Message" name="message" id="message" required>
+							</textarea>
+							  
+							<button type="submit" >Submit</button>
+							
+							
+						  </div>
+					  
+						  <div class="formcontainer"  id= "containerloginfooter">
+							<button type="button" onclick="document.getElementById('ContactUsForm').style.display='none'" class="cancelbtn">Cancel</button>
+							
+						  </div>
+						</form>
+					  </div>
+
+
+
+		</div>
+		</section>
+
+<footer>
+
+<p>Developed by Peter Buckingham @ Nemesis Net Technologies &copy  All rights reserved.</p>
+</footer>
+
+	</body>
+
+
+</html>

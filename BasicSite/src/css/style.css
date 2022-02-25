@@ -1,0 +1,189 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  height: auto;
+  
+
+
+}
+body ,html
+{
+    height: 100%;
+}
+.wrapper{
+  background-color: blue;
+  height: 100vh;
+
+}
+.section,.mainsection{
+  overflow: hidden;
+  padding-bottom: 50px;
+  height: 60.8vh;
+}
+
+.mainsection{
+ height: 400PX;
+}
+.picz{
+ color: #ffffff;
+ padding: 30px;
+ width: 100%;
+ text-align: center;
+
+ 
+}
+
+/* Global */
+.container{
+  width: 100%;
+  margin:auto;
+  overflow:hidden;
+}
+.mainsection a:link{
+  color:#2eb82e;
+}
+.mainsection a:hover{
+  color:#2eb82e;
+}
+.mainsection a:active{
+  color:#2eb82e;
+}
+.mainsection a:visited{
+  color:#2eb82e;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height:70px;
+  border-bottom:#2eb82e 3px solid;
+  border-top:#2eb82e 3px solid;
+}
+
+header li a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header #branding a{
+  color:#ffffff;
+  text-decoration:none;
+
+}
+
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#2eb82e;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#2eb82e;
+  font-weight:bold;
+}
+
+
+
+/* Sidebar */
+aside #sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  position: relative;
+  margin-top: -50px;
+  clear: both;
+  color:#ffffff;
+  background:#35424a;
+  text-align: center;
+  border-bottom:#2eb82e 3px solid;
+  border-top:#2eb82e 3px solid;
+}
+.container a:hover{
+  color:#2eb82e;
+  font-weight:bold;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+
+}
